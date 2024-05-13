@@ -9,5 +9,7 @@ programm
     .description('Compares two configuration files and shows a difference.')
     .version(version)
     .helpOption( '-h, --help', 'output usage information')
+    .arguments('<filepath1> <filepath2>')
+    .option('-f, --format', 'output format')
 
 programm.parse()
